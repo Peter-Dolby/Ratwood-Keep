@@ -27775,7 +27775,13 @@
 /turf/open/floor/rogue/tile/bath,
 /area/rogue/indoors/town/bath)
 "mCY" = (
-/turf/closed/mineral/random/rogue,
+/obj/structure/roguetent{
+	opacity = 1;
+	color = "#c7487b";
+	name = "pink curtain";
+	desc = "A heavy curtain of thick fabric."
+	},
+/turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/bath)
 "mDl" = (
 /obj/structure/fluff/railing/wood{
@@ -34493,7 +34499,7 @@
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors/town/magician)
 "pLA" = (
-/obj/machinery/light/rogue/wallfire/candle,
+/obj/machinery/light/rogue/wallfire/candle/r,
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/bath)
 "pMf" = (
@@ -50762,6 +50768,9 @@
 	},
 /turf/open/floor/rogue/cobble,
 /area/rogue/indoors)
+"xwy" = (
+/turf/closed/wall/mineral/rogue/craftstone,
+/area/rogue/under/cave)
 "xwJ" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -112152,7 +112161,7 @@ bpD
 bpD
 bpD
 bpD
-pKo
+nvH
 nvH
 uCg
 wpn
@@ -114735,8 +114744,8 @@ cip
 bpD
 bpD
 bpD
-scK
-xrC
+tQZ
+xwy
 xCt
 dpp
 vXL
@@ -115167,7 +115176,7 @@ bpD
 bpD
 bpD
 bpD
-nvH
+pKo
 iAa
 jjq
 mzo
@@ -116463,7 +116472,7 @@ bpD
 bpD
 bpD
 bpD
-scK
+tQZ
 iAa
 eep
 jPI
@@ -116895,8 +116904,8 @@ bpD
 bpD
 bpD
 bpD
-mCY
-mCY
+bpD
+bpD
 xCt
 xCt
 iuN
@@ -119925,7 +119934,7 @@ hSM
 yjj
 iel
 wGF
-eFJ
+mCY
 bqs
 bqs
 eFJ
@@ -120789,7 +120798,7 @@ yjj
 yjj
 sAH
 iel
-eFJ
+mCY
 pLA
 iel
 eFJ
