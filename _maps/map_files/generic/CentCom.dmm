@@ -1449,6 +1449,13 @@
 	},
 /turf/open/floor/rogue/hexstone,
 /area/rogue/indoors/banditcamp)
+"es" = (
+/obj/structure/roguemachine/hoardbarrier,
+/obj/structure/roguemachine/Hoardmaster{
+	pixel_x = -30
+	},
+/turf/open/floor/rogue/carpet,
+/area/rogue/indoors/banditcamp)
 "ez" = (
 /mob/living/simple_animal/hostile/retaliate/rogue/saigabuck/tame/saddled{
 	dir = 4
@@ -2335,8 +2342,9 @@
 /turf/closed/wall/mineral/rogue/stone/window,
 /area/rogue/under/town/goblin)
 "qB" = (
-/obj/structure/roguemachine/Hoardmaster,
-/turf/open/floor/rogue/carpet,
+/turf/closed/wall/mineral/rogue/tent{
+	dir = 4
+	},
 /area/rogue/indoors/banditcamp)
 "qP" = (
 /obj/structure/rack/rogue,
@@ -3461,8 +3469,9 @@
 	},
 /area/rogue/under/town/goblin)
 "HQ" = (
-/obj/structure/bars,
-/turf/open/floor/rogue/woodturned,
+/turf/closed/wall/mineral/rogue/tent{
+	dir = 8
+	},
 /area/rogue/indoors/banditcamp)
 "HU" = (
 /obj/machinery/light/rogue/wallfire/candle/l{
@@ -4115,6 +4124,11 @@
 	icon_state = "weird1"
 	},
 /area/rogue/indoors)
+"Rb" = (
+/obj/structure/flora/roguetree,
+/obj/structure/flora/roguetree,
+/turf/open/floor/rogue/dirt,
+/area/rogue/outdoors/banditcamp)
 "Rc" = (
 /obj/structure/table/wood{
 	icon_state = "largetable"
@@ -4144,13 +4158,8 @@
 /turf/open/floor/rogue/naturalstone,
 /area/rogue/under/town/goblin)
 "Rt" = (
-/obj/structure/mineral_door/bars{
-	locked = 1;
-	lockid = "bandit"
-	},
-/turf/open/floor/rogue/ruinedwood{
-	dir = 1;
-	icon_state = "vertw"
+/turf/closed/wall/mineral/rogue/tent{
+	dir = 1
 	},
 /area/rogue/indoors/banditcamp)
 "Rw" = (
@@ -6754,7 +6763,7 @@ bz
 bz
 bz
 TG
-qB
+xS
 xS
 xS
 xS
@@ -6984,7 +6993,7 @@ bz
 bz
 bz
 TG
-kR
+es
 xS
 xS
 xS
@@ -8408,13 +8417,13 @@ Wp
 Wp
 Wp
 Wp
+dD
 Wp
 Wp
 Wp
 Wp
 Wp
-Wp
-Wp
+dD
 vQ
 kB
 "}
@@ -8592,9 +8601,9 @@ jz
 kB
 bz
 UI
+Rb
 UI
-Cm
-Cm
+UI
 Cm
 nX
 Cm
@@ -8631,7 +8640,7 @@ Wp
 Wp
 Wp
 Wp
-Wp
+dD
 Wp
 Wp
 Wp
@@ -8821,10 +8830,10 @@ jz
 jz
 kB
 bz
-Cm
-Cm
-Cm
-nX
+UI
+UI
+UI
+Oq
 nX
 zf
 YS
@@ -9051,15 +9060,15 @@ jz
 jz
 kB
 bz
-Cm
-nX
-Cm
-nX
+UI
+Oq
+UI
+Oq
 nX
 SE
 MF
 js
-HQ
+YV
 xr
 Vl
 RK
@@ -9281,15 +9290,15 @@ jz
 jz
 kB
 bz
-Cm
-nX
-nX
-nX
+UI
+Oq
+Oq
+Oq
 nX
 SE
 js
 js
-Rt
+qf
 xr
 xr
 zf
@@ -9511,15 +9520,15 @@ jz
 jz
 kB
 bz
-Cm
-nX
-nX
-nX
+UI
+Oq
+Oq
+Oq
 nX
 SE
 MF
 js
-so
+YV
 pb
 pb
 SE
@@ -9741,10 +9750,10 @@ jz
 jz
 kB
 bz
-Cm
-Cm
-nX
-nX
+UI
+UI
+Oq
+Oq
 nX
 zf
 YS
@@ -9972,9 +9981,9 @@ jz
 kB
 bz
 UI
-Cm
-nX
-nX
+UI
+Oq
+Oq
 nX
 SE
 MF
@@ -10009,8 +10018,8 @@ bz
 bz
 bz
 bz
-Te
-Te
+bz
+bz
 bz
 Te
 Te
@@ -10202,9 +10211,9 @@ jz
 kB
 bz
 UI
-Cm
-Cm
-nX
+UI
+UI
+Oq
 nX
 SE
 js
@@ -10230,8 +10239,6 @@ Sn
 Te
 Te
 Te
-Te
-Te
 bz
 bz
 bz
@@ -10239,7 +10246,9 @@ bz
 bz
 bz
 bz
-Te
+bz
+bz
+bz
 Te
 bz
 bz
@@ -10432,9 +10441,9 @@ jz
 kB
 bz
 UI
-Cm
-nX
-Cm
+UI
+Oq
+UI
 nX
 SE
 MF
@@ -10662,8 +10671,8 @@ jz
 kB
 bz
 UI
-Cm
-nX
+UI
+Oq
 nX
 nX
 zf
@@ -10892,7 +10901,7 @@ jz
 kB
 bz
 UI
-Cm
+UI
 Cm
 nX
 Cm
@@ -11600,8 +11609,8 @@ Es
 Es
 pg
 vT
-pg
-pg
+qB
+Rt
 nX
 Cm
 Sn
@@ -11825,13 +11834,13 @@ gE
 Es
 pg
 vT
-pg
-pg
+qB
+Rt
 Cm
 pg
 pb
 pb
-pg
+Rt
 nX
 Cm
 Sn
@@ -12056,12 +12065,12 @@ Es
 pg
 pb
 pb
-pg
+Rt
 UI
 pg
 pb
 pb
-pg
+Rt
 nX
 Cm
 Sn
@@ -12275,9 +12284,9 @@ bz
 Cm
 Cm
 Cm
-Cm
-Cm
-Cm
+DB
+DB
+DB
 nX
 nX
 nX
@@ -12286,12 +12295,12 @@ UI
 pg
 pb
 pb
-pg
+Rt
 Cm
 pg
 Tw
 mQ
-pg
+Rt
 WE
 Cm
 Sn
@@ -12505,7 +12514,7 @@ bz
 UI
 UI
 UI
-UI
+Cm
 Cm
 Cm
 Cm
@@ -12516,12 +12525,12 @@ UI
 pg
 ie
 mQ
-pg
+Rt
 UI
 pg
-pg
-pg
-pg
+HQ
+HQ
+Rt
 Oq
 nX
 Sn
@@ -12744,9 +12753,9 @@ UI
 UI
 UI
 pg
-pg
-pg
-pg
+HQ
+HQ
+Rt
 UI
 UI
 UI
