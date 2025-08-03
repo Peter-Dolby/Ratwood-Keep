@@ -12,7 +12,9 @@
 	item_state = "pot"
 	drop_sound = 'sound/foley/dropsound/shovel_drop.ogg'
 	sharpness = IS_BLUNT
-	w_class = WEIGHT_CLASS_BULKY
+	w_class = WEIGHT_CLASS_NORMAL
+	grid_width = 96
+	grid_height = 96
 	reagent_flags = OPENCONTAINER
 	throwforce = 10
 	//volume is same as buckets now, 198. (66oz) (whoever changed this to 300 before caused a lot of headaches)
@@ -50,8 +52,7 @@ obj/item/reagent_containers/glass/bucket/pot/proc/start_boiling()
 /* Component Initialize */
 obj/item/reagent_containers/glass/bucket/pot/ComponentInitialize()
 	. = ..()
-	var/datum/component/storage/STR = AddComponent(/datum/component/storage/concrete/pot)
-	STR.set_holdable(null, STR.cant_hold)
+	AddComponent(/datum/component/storage/concrete/grid/food/cooking/pot)
 	boilloop = new(src, FALSE)
 
 /* Destroy */

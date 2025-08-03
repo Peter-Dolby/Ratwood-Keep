@@ -1,5 +1,6 @@
 
 /datum/crafting_recipe/roguetown/structure
+	abstract_type = /datum/crafting_recipe/roguetown/structure
 	req_table = FALSE
 	craftsound = 'sound/foley/Building-01.ogg'
 
@@ -379,6 +380,9 @@
 	verbage = "constructs"
 	skillcraft = /datum/skill/craft/carpentry
 
+/obj/structure/closet/crate/roguecloset/crafted
+	sellprice = 6
+
 /datum/crafting_recipe/roguetown/structure/coffin
 	name = "coffin/casket - (2 small logs; BEGINNER)"
 	result = /obj/structure/closet/crate/coffin
@@ -678,3 +682,11 @@
 	verbage = "builds"
 	skillcraft = /datum/skill/craft/masonry
 	skill_level = 3
+
+/datum/crafting_recipe/roguetown/structure/gallows
+	name = "gallows"
+	result = /obj/structure/noose/gallows
+	reqs = list(/obj/item/rope = 1, /obj/item/grown/log/tree/small = 2)
+	verbage = "constructs"
+	craftsound = 'sound/foley/Building-01.ogg'
+	ontile = TRUE
