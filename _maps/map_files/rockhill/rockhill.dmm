@@ -184,6 +184,7 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
+/obj/machinery/light/rogue/wallfire/candle/blue/l,
 /turf/open/floor/rogue/concrete,
 /area/rogue/under/town/sewer)
 "acI" = (
@@ -721,6 +722,7 @@
 	pixel_y = 4;
 	redstone_id = "whitevein_desk"
 	},
+/obj/machinery/light/rogue/wallfire/candle/blue/r,
 /turf/open/floor/rogue/concrete,
 /area/rogue/indoors/town/bath)
 "arP" = (
@@ -4378,8 +4380,11 @@
 /turf/open/floor/rogue/grass,
 /area/rogue/indoors/town/church)
 "bVX" = (
-/turf/open/dark_filler,
-/area/rogue/under/cave)
+/obj/structure/flora/rogueshroom{
+	icon_state = "mush5"
+	},
+/turf/open/floor/rogue/naturalstone,
+/area/rogue/under/cavewet/bogcaves)
 "bWc" = (
 /obj/structure/table/vtable/v2,
 /obj/item/natural/feather,
@@ -6644,6 +6649,18 @@
 /obj/effect/decal/cleanable/blood,
 /turf/closed/wall/mineral/rogue/wooddark/window,
 /area/rogue/indoors)
+"cUp" = (
+/obj/structure/roguetent{
+	opacity = 1;
+	color = "#c7487b";
+	name = "pink curtain";
+	desc = "A heavy curtain of thick fabric."
+	},
+/obj/structure/fluff/railing/border{
+	dir = 8
+	},
+/turf/open/floor/carpet/royalblack,
+/area/rogue/indoors/town/bath)
 "cUx" = (
 /obj/structure/fluff/railing/wood{
 	dir = 8;
@@ -16410,7 +16427,7 @@
 /obj/structure/bell_common{
 	dir = 4;
 	pixel_x = -9;
-	pixel_y = -15
+	pixel_y = -20
 	},
 /turf/open/floor/rogue/ruinedwood/turned,
 /area/rogue/under/town/sewer)
@@ -25574,6 +25591,12 @@
 "lDc" = (
 /turf/closed/wall/mineral/rogue/decostone/cand,
 /area/rogue/outdoors/town)
+"lDE" = (
+/obj/structure/fluff/railing/border{
+	dir = 6
+	},
+/turf/open/floor/carpet/royalblack,
+/area/rogue/indoors/town/bath)
 "lEj" = (
 /obj/structure/fluff/railing/border{
 	dir = 4;
@@ -27780,6 +27803,9 @@
 	color = "#c7487b";
 	name = "pink curtain";
 	desc = "A heavy curtain of thick fabric."
+	},
+/obj/structure/fluff/railing/border{
+	dir = 4
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/bath)
@@ -34500,6 +34526,9 @@
 /area/rogue/indoors/town/magician)
 "pLA" = (
 /obj/machinery/light/rogue/wallfire/candle/r,
+/obj/structure/fluff/railing/border{
+	dir = 5
+	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/bath)
 "pMf" = (
@@ -40603,14 +40632,13 @@
 /turf/open/floor/rogue/twig,
 /area/rogue/outdoors/bog)
 "sLa" = (
-/obj/structure/fluff/railing/border{
-	dir = 5
+/obj/structure/closet/crate/roguecloset/dark{
+	lockid = "nightman"
 	},
 /obj/structure/fluff/railing/border{
-	dir = 6
+	dir = 9
 	},
-/obj/machinery/light/rogue/wallfire/candle/blue/r,
-/turf/open/floor/carpet/inn,
+/turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/bath)
 "sLg" = (
 /obj/structure/fluff/walldeco/customflag{
@@ -41596,8 +41624,10 @@
 /turf/open/floor/rogue/blocks,
 /area/rogue/outdoors/town)
 "thM" = (
-/turf/closed/wall/mineral/rogue/stonebrick,
-/area/rogue/indoors/shelter/mountains)
+/turf/closed/wall/mineral/rogue/decostone/long{
+	dir = 1
+	},
+/area/rogue/under/town/sewer)
 "thO" = (
 /obj/structure/fluff/railing/border{
 	dir = 1
@@ -48921,6 +48951,9 @@
 "wGF" = (
 /obj/item/roguebin/trash{
 	pixel_x = -8
+	},
+/obj/structure/fluff/railing/border{
+	dir = 10
 	},
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/bath)
@@ -119934,8 +119967,8 @@ hSM
 yjj
 iel
 wGF
-mCY
-bqs
+cUp
+sLa
 bqs
 eFJ
 hZk
@@ -120797,7 +120830,7 @@ kuP
 yjj
 yjj
 sAH
-iel
+lDE
 mCY
 pLA
 iel
@@ -121839,8 +121872,8 @@ whb
 whb
 whb
 whb
-emd
 dVO
+bVX
 dVO
 dVO
 dVO
@@ -208922,26 +208955,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -209354,26 +209387,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -209786,26 +209819,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -210218,26 +210251,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -210650,26 +210683,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -211082,26 +211115,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -211514,26 +211547,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -211946,26 +211979,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -212378,26 +212411,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -212810,26 +212843,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -213242,26 +213275,26 @@ vRu
 vRu
 vRu
 vRu
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
-bVX
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
+vRu
 vRu
 vRu
 vRu
@@ -229665,7 +229698,7 @@ uAi
 qut
 htL
 rUg
-sLa
+iia
 fXp
 arH
 qut
@@ -230097,9 +230130,9 @@ jKG
 eFJ
 wqF
 ieR
-soz
 kKd
 oTd
+soz
 bng
 soz
 eFJ
@@ -230524,7 +230557,7 @@ gMO
 gMO
 lrs
 lrs
-dWF
+thM
 gMO
 tLK
 acF
@@ -231388,7 +231421,7 @@ mXk
 lEn
 gMO
 lrs
-dWF
+thM
 gMO
 iHh
 lqx
@@ -444753,7 +444786,7 @@ vIa
 vIa
 vIa
 vIa
-thM
+wtF
 wtF
 wtF
 uNw
