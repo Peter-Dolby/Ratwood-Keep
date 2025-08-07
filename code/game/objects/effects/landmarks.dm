@@ -108,6 +108,13 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	delete_after_roundstart = FALSE
 	map = "Build Your Settlement"
 
+/obj/effect/landmark/start/banditlate_spookmanor
+	name = "Bandit"
+	icon_state = "arrow"
+	jobspawn_override = list("Bandit")
+	delete_after_roundstart = FALSE
+	map = "Spookmanor"
+
 
 /obj/effect/landmark/start/bogguardlate
 	name = "Bogguardlate"
@@ -570,6 +577,16 @@ INITIALIZE_IMMEDIATE(/obj/effect/landmark)
 	GLOB.bandit_starts_byos += loc
 	return INITIALIZE_HINT_QDEL
 
+/obj/effect/landmark/start/spookmanor
+	name = "bandit_spookmanor"
+	icon = 'icons/mob/landmarks.dmi'
+	icon_state = "arrow"
+	map = "Spookmanor"
+
+/obj/effect/landmark/start/bandit_spookmanor/Initialize()
+	..()
+	GLOB.bandit_starts_spookmanor += loc
+	return INITIALIZE_HINT_QDEL
 
 /obj/effect/landmark/start/delf
 	name = "delf"
