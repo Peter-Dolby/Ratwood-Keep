@@ -94,3 +94,5 @@ GLOBAL_LIST_EMPTY(all_abstract_markers)
 GLOBAL_LIST_EMPTY(fires_list)
 
 GLOBAL_LIST_EMPTY(streetlamp_list)
+
+GLOBAL_LIST_EMPTY(bandit_starts_spookmanor)
