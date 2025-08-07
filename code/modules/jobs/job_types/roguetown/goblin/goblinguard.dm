@@ -18,7 +18,7 @@
 	subclass_cat_rolls = list(CTAG_GOBS = 20)
 	advjob_examine = TRUE
 	announce_latejoin = FALSE
-	allowed_maps = list("Rockhill")
+	allowed_maps = list("Rockhill, Spookmanor")
 
 /datum/outfit/job/roguetown/goblinguard
 	allowed_patrons = list(/datum/patron/inhumen/graggar)
@@ -130,7 +130,7 @@
 	r_hand = /obj/item/rogueweapon/stoneaxe/battle
 	if(H.mind)
 		H.mind.adjust_skillrank(/datum/skill/combat/axes, 3 , TRUE)
-		H.mind.adjust_skillrank(/datum/skill/combat/swords, 1, TRUE)
+		H.mind.adjust_skillrank(/datum/skill/combat/maces, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/polearms, 1, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/unarmed, 2, TRUE)
 		H.mind.adjust_skillrank(/datum/skill/combat/knives, 2, TRUE)
