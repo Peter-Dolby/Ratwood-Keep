@@ -389,8 +389,8 @@
 /area/rogue/indoors/town/manor)
 "ajr" = (
 /obj/structure/mineral_door/wood/red{
-	locked = 1;
-	lockid = "nightman";
+	locked = "1";
+	lockid = "steam";
 	name = "Steaming Room"
 	},
 /turf/open/floor/rogue/concrete,
@@ -819,7 +819,8 @@
 /area/rogue/indoors/town/shop)
 "aum" = (
 /obj/structure/chair/wood/rogue/fancy{
-	dir = 4
+	dir = 4;
+	pixel_x = 5
 	},
 /obj/structure/roguemachine/scomm/l,
 /turf/open/floor/rogue/tile,
@@ -5684,6 +5685,11 @@
 /obj/structure/fluff/railing/border{
 	dir = 6
 	},
+/obj/structure/table/wood{
+	dir = 6;
+	icon_state = "largetable";
+	pixel_y = -4
+	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors/town/bath)
 "cAg" = (
@@ -6985,7 +6991,7 @@
 /obj/structure/mineral_door/wood/donjon{
 	dir = 1;
 	locked = 1;
-	lockid = "nightman";
+	lockid = "lux3";
 	name = "Luxury Suite III"
 	},
 /obj/structure/stairs/stone,
@@ -12014,11 +12020,61 @@
 /turf/open/floor/carpet/royalblack,
 /area/rogue/indoors/town/dwarfin)
 "fpq" = (
-/obj/structure/fermenting_barrel/random/water{
-	pixel_y = 2
+/obj/structure/table/wood{
+	dir = 8;
+	icon_state = "largetable"
 	},
-/obj/machinery/light/rogue/wallfire/candle/l,
-/turf/open/floor/rogue/tile,
+/obj/item/key/roomi{
+	lockid = "lux3";
+	name = "luxury room III key";
+	pixel_x = -1;
+	icon_state = "greenkey";
+	desc = "A key that promises dark delight.";
+	pixel_y = 17
+	},
+/obj/item/key/roomi{
+	lockid = "lux2";
+	name = "luxury room II key";
+	pixel_x = 10;
+	icon_state = "greenkey";
+	desc = "A key that promises verdant delight."
+	},
+/obj/item/key/roomi{
+	lockid = "lux1";
+	name = "luxury room I key";
+	pixel_x = -2;
+	icon_state = "greenkey";
+	desc = "A key that promises pristine delight.";
+	pixel_y = -14
+	},
+/obj/item/key/roomi{
+	lockid = "lux1";
+	name = "luxury room I key";
+	pixel_x = -2;
+	icon_state = "greenkey";
+	desc = "A key that promises pristine delight.";
+	pixel_y = -14
+	},
+/obj/item/key/roomi{
+	lockid = "lux2";
+	name = "luxury room II key";
+	pixel_x = 10;
+	icon_state = "greenkey";
+	desc = "A key that promises verdant delight."
+	},
+/obj/item/key/roomi{
+	lockid = "lux3";
+	name = "luxury room III key";
+	pixel_x = -1;
+	icon_state = "greenkey";
+	desc = "A key that promises dark delight.";
+	pixel_y = 17
+	},
+/obj/structure/fluff/walldeco/maidendrape{
+	pixel_x = 32;
+	pixel_y = 4
+	},
+/turf/open/floor/rogue/churchmarble,
 /area/rogue/indoors/town/bath)
 "fpu" = (
 /turf/closed/wall/mineral/rogue/decostone/mossy/blue/end{
@@ -16041,7 +16097,7 @@
 	dir = 4;
 	lockdiff = 3;
 	locked = 1;
-	lockid = "nightman";
+	lockid = "lux1";
 	name = "Luxury Suite I"
 	},
 /turf/open/floor/rogue/concrete,
@@ -16082,7 +16138,7 @@
 /area/rogue/outdoors/town)
 "hgT" = (
 /obj/structure/table/wood{
-	dir = 1;
+	dir = 8;
 	icon_state = "largetable"
 	},
 /obj/item/cooking/platter{
@@ -17686,7 +17742,9 @@
 	},
 /area/rogue/outdoors/bog)
 "hSM" = (
-/obj/structure/stairs/stone,
+/obj/structure/stairs/stone{
+	dir = 1
+	},
 /obj/structure/roguetent{
 	color = "#c7487b";
 	name = "pink curtain";
@@ -18132,6 +18190,27 @@
 /obj/item/bedsheet/rogue/pelt,
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
+"icB" = (
+/obj/structure/table/wood{
+	dir = 9;
+	icon_state = "largetable"
+	},
+/obj/item/key/roomi{
+	lockid = "punishroom";
+	name = "punishment room key";
+	pixel_x = 10;
+	icon_state = "spikekey";
+	desc = "A key that promises cruel delight."
+	},
+/obj/item/key/roomi{
+	lockid = "punishroom";
+	name = "punishment room key";
+	pixel_x = 10;
+	icon_state = "spikekey";
+	desc = "A key that promises cruel delight."
+	},
+/turf/open/floor/rogue/churchmarble,
+/area/rogue/indoors/town/bath)
 "ida" = (
 /obj/structure/bars,
 /turf/open/floor/rogue/cobble,
@@ -18479,6 +18558,10 @@
 /obj/structure/fluff/railing/border,
 /obj/structure/fluff/railing/border{
 	dir = 5
+	},
+/obj/structure/fermenting_barrel/random/water{
+	pixel_y = 2;
+	pixel_x = 0
 	},
 /turf/open/floor/rogue/herringbone,
 /area/rogue/indoors/town/bath)
@@ -19247,15 +19330,15 @@
 /turf/closed/wall/mineral/rogue/decostone/cand,
 /area/rogue/indoors/town/academy)
 "iFf" = (
-/obj/structure/stairs/stone{
-	dir = 8
-	},
 /obj/structure/roguetent{
 	color = "#c7487b";
 	name = "pink curtain";
 	desc = "A heavy curtain of thick fabric.";
 	icon_state = "tent_door0";
 	density = 0
+	},
+/obj/structure/stairs/stone{
+	dir = 4
 	},
 /turf/open/floor/rogue/tile/masonic/inverted,
 /area/rogue/indoors/town/bath)
@@ -23137,15 +23220,15 @@
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors)
 "kuP" = (
-/obj/structure/stairs/stone{
-	dir = 4
-	},
 /obj/structure/roguetent{
 	color = "#c7487b";
 	name = "pink curtain";
 	desc = "A heavy curtain of thick fabric.";
 	icon_state = "tent_door0";
 	density = 0
+	},
+/obj/structure/stairs/stone{
+	dir = 8
 	},
 /turf/open/floor/rogue/tile/masonic/inverted,
 /area/rogue/indoors/town/bath)
@@ -27568,7 +27651,7 @@
 /obj/structure/mineral_door/wood/donjon{
 	dir = 1;
 	locked = 1;
-	lockid = "nightman";
+	lockid = "punishroom";
 	name = "Punishment Room"
 	},
 /turf/open/floor/rogue/concrete,
@@ -29424,7 +29507,8 @@
 "nsL" = (
 /obj/item/reagent_containers/glass/bowl,
 /obj/structure/table/wood{
-	icon_state = "largetable"
+	icon_state = "largetable";
+	dir = 10
 	},
 /turf/open/floor/carpet/inn,
 /area/rogue/indoors/town/bath)
@@ -40733,7 +40817,7 @@
 /area/rogue/indoors/town/manor)
 "sMZ" = (
 /obj/structure/table/wood{
-	dir = 1;
+	dir = 9;
 	icon_state = "largetable";
 	pixel_y = -6
 	},
@@ -42906,7 +42990,7 @@
 	dir = 4;
 	lockdiff = 3;
 	locked = 1;
-	lockid = "nightman";
+	lockid = "lux2";
 	name = "Luxury Suite II"
 	},
 /turf/open/floor/rogue/concrete,
@@ -44448,9 +44532,23 @@
 	},
 /area/rogue/outdoors/town)
 "uyU" = (
-/obj/machinery/light/rogue/wallfire/candle{
-	pixel_x = 32;
-	pixel_y = 0
+/obj/structure/table/wood{
+	icon_state = "largetable";
+	dir = 10
+	},
+/obj/item/key/roomi{
+	lockid = "steam";
+	name = "steaming room key";
+	pixel_x = 10;
+	icon_state = "greenkey";
+	desc = "A key that promises humid delight"
+	},
+/obj/item/key/roomi{
+	lockid = "steam";
+	name = "steaming room key";
+	pixel_x = 10;
+	icon_state = "greenkey";
+	desc = "A key that promises humid delight"
 	},
 /turf/open/floor/rogue/churchmarble,
 /area/rogue/indoors/town/bath)
@@ -45824,8 +45922,7 @@
 /area/rogue/indoors/town/dwarfin)
 "vkf" = (
 /obj/structure/chair/wood/rogue{
-	dir = 4;
-	pixel_x = -7
+	dir = 4
 	},
 /obj/structure/fluff/walldeco/rpainting{
 	pixel_x = -32
@@ -49277,8 +49374,7 @@
 /area/rogue/indoors)
 "wOG" = (
 /obj/structure/chair/wood/rogue{
-	dir = 4;
-	pixel_x = -7
+	dir = 4
 	},
 /obj/structure/fluff/walldeco/rpainting/crown{
 	pixel_x = -32
@@ -222359,7 +222455,7 @@ lFs
 vkf
 aum
 wOG
-fpq
+lFs
 lnC
 iel
 tUy
@@ -224948,8 +225044,8 @@ rhw
 aWD
 nfP
 eaO
-sIR
-cnb
+icB
+fpq
 uyU
 cnb
 qUr
