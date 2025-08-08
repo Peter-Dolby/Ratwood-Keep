@@ -906,7 +906,7 @@
 "fca" = (/obj/structure/flora/roguegrass,/turf/open/floor/rogue/grass,/area/rogue/outdoors/bog{first_time_text = "The Grand Courtyard"})
 "fcb" = (/obj/structure/roguemachine/scomm/r,/turf/open/floor/rogue/wood,/area/rogue/indoors/town/manor{first_time_text = "The Manor"})
 "fcg" = (/turf/closed/wall/mineral/rogue/pipe{icon_state = "iron_line"},/area/rogue/indoors/town/magician{color = "#24e0b1"; first_time_text = "Maging Chambers"; name = "Maging Chambers"; ambientsounds = list('sound/ambience/cave.ogg'); spookysounds = list('sound/ambience/noises/mystical (1).ogg','sound/ambience/noises/mystical(2).ogg','sound/ambience/noises/mystical(3).ogg','sound/ambience/noises/mystical(4).ogg','sound/ambience/noises/mystical(5).ogg','sound/ambience/noises/mystical(6).ogg',)})
-"fcC" = (/mob/living/simple_animal/hostile/retaliate/rogue/bigrat{faction = list(s)},/turf/open/floor/rogue/cobble/mossy,/area/rogue/under/cavewet{first_time_text = null})
+"fcC" = (/mob/living/simple_animal/hostile/retaliate/rogue/bigrat,/turf/open/floor/rogue/cobble/mossy,/area/rogue/under/cavewet{first_time_text = null})
 "fcN" = (/turf/closed/mineral/rogue,/area/rogue/indoors/town/fire_chamber{ambientsounds = list('sound/ambience/hell1.ogg'); droning_sound_night = null; droning_sound_dusk = null; droning_sound = 'sound/music/area/caves.ogg'; name = "firezone"; first_time_text = "Another Place"})
 "fdG" = (/obj/structure/fluff/railing/border{dir = 4},/turf/open/floor/rogue/dirt/road,/area/rogue/indoors/town/manor{first_time_text = "The Manor"})
 "fdN" = (/obj/structure/fluff/psycross{pixel_y = 20},/obj/structure/flora/roguegrass,/turf/open/floor/rogue/cobble/mossy,/area/rogue/outdoors/bog{first_time_text = "The Grand Courtyard"})
